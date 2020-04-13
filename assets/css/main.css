@@ -2986,8 +2986,8 @@
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
-		left: 0;
-		top: 0;
+		left: 0.5em;
+		top: 0.5em;
 		height: 3em;
 		width: 4.25em;
 		position: absolute;
