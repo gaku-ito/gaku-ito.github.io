@@ -2941,10 +2941,10 @@
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
-		height: 10%;
-		width: 20%;
-		/*height: 2.25em;*/
-		/*width: 3.5em;*/
+/*		height: 10%;
+		width: 20%;*/
+		height: 2.25em;
+		width: 3.5em;
 		left: 0;
 		position: absolute;
 		top: 0;
