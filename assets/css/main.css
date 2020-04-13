@@ -2301,14 +2301,14 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-		width: 340px;
-		height: 340px;
+		width: 325px;
+		height: 325px;
 		opacity: 0.9;
 		object-fit: cover;
 	}
 	.image.link img:hover {
-		width: 340px;
-		height: 340px;
+		width: 325px;
+		height: 325px;
 		transition: 0.75s;
 		opacity: 0.5;
 		object-fit: cover;
