@@ -2303,7 +2303,7 @@
 		position: relative;
 		width: 325px;
 		height: 325px;
-		opacity: 0.9;
+		opacity: 1;
 		object-fit: cover;
 	}
 	.image.link img:hover {
