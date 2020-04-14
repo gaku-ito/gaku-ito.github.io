@@ -1649,7 +1649,8 @@
 		}
 
 	a {
-		text-decoration: underline;
+		/*text-decoration: underline;*/
+		text-decoration: none;
 		color: #f32853;
 	}
 
