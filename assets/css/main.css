@@ -1657,7 +1657,8 @@
 
 		a:hover {
 			text-decoration: underline;
-			color: #ff7f00;
+			color: #ff00ff;
+			/*color: #ff7f00;*/
 		}
 
 	strong, b {
