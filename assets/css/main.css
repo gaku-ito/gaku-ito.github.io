@@ -1577,8 +1577,10 @@
 
 		@media screen and (max-width: 980px) {
 
+			/*set top-padding*/
 			body {
-				padding-top: 2em;
+				padding-top: 3.15em;
+				/*padding-top: 2em;*/
 			}
 
 		}
