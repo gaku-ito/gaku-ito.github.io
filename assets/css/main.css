@@ -2349,8 +2349,8 @@
 		.image.hovtext:hover img {
 			z-index: 1;	/*Move to front*/
 			transform:	scale(1.2);
-			-webkit-transition:	all 0.35s ease;
-			transition:		all 0.35s ease;
+			-webkit-transition:	all 0.1s ease;
+			transition:		all 0.1s ease;
 		}
 		.image.hovtext:hover .mask {
 			z-index: 1;	/*Move to front*/
