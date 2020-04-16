@@ -2312,19 +2312,14 @@
 		opacity: 1;
 		object-fit: cover;
 	}
-	.image.link img:hover {
-		width: 100%;
-		height: 325px;
-		transition: 0.5s;
-		opacity: 0.35;
-		object-fit: cover;
-	}
+		.image.link img:hover {
+			transition: 0.35s;
+			opacity: 0.25;
+		}
 
 
-
-
-	.hovtext {
-		border-radius: 1px;
+	.image.hovtext img{
+		border-radius: 3px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2333,38 +2328,29 @@
 		opacity: 1;
 		object-fit: cover;
 	}
-	.hovtext img{
-		border-radius: 1px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-		width: 100%;
-		height: 325px;
-		opacity: 1;
-		object-fit: cover;
-	}
-	.hovtext .caption {
-		width: 100%;
-		height: 325px;
-		font-size:		130%;
-		text-align: 	center;
-		padding-top:	80px;
-		color:			#FFFFFF;
-	}
-	.hovtext .mask {
-		width: 100%;
-		height: 325px;
-		position:		absolute;
-		top:			0;
-		left:			0;
-		opacity:		0;
-		background-color:	rgba(0,0,0,0.4);
-		-webkit-transition:	all 0.2s ease;
-		transition:		all 0.5s ease;
-	}
-	.hovtext:hover .mask {
-		opacity:	0.85;
-	}
+		.image.hovtext .caption {
+			font-size:	100%;
+			text-align:	center;
+			padding-top:	10%;
+		}
+		.image.hovtext .mask {
+			width: 100%;
+			height: 325px;
+			position:	absolute;
+			top:	0;
+			left:	0;
+			opacity:	0;	/*No mask*/
+			/*background-color:	rgba(0,0,0,0.35);*/
+			background-color:	#ffffff;
+			-webkit-transition:	all 0.5s ease;
+			transition:		all 0.5s ease;
+		}
+		.image.hovtext:hover .mask {
+			opacity:	0.8;
+			/*padding-top:	10%;	/*Move downward*/*/
+		}
+
+
 
 
 		.image.left, .image.right {
