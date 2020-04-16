@@ -2321,7 +2321,7 @@
 	.image.hovtext img{
 		border-radius: 3px;
 		border: 0;
-		display: inline-block;
+		display: block;
 		position: relative;
 		width: 100%;
 		height: 325px;
@@ -2332,14 +2332,12 @@
 			font-size:	100%;
 			text-align:	center;
 			padding-top:	140px;
-			/*top: 100%;*/
-			/*left: 0%;*/
-/*			padding-bottom: -15%;
-			padding-left:	0%;*/
 		}
 		.image.hovtext .mask {
+			border-radius: 3px;
+			border: 0;
 			width: 100%;
-			height: 325px;
+			height: 100%;
 			position:	absolute;
 			top: 0%;
 			left: 0%;
@@ -2348,11 +2346,17 @@
 			-webkit-transition:	all 0.4s ease;
 			transition:		all 0.4s ease;
 		}
-		.image.hovtext:hover .mask {
-			opacity:	0.8;
+		.image.hovtext:hover img {
+			z-index: 1;	/*Move to front*/
+			transform:	scale(1.2);
+			-webkit-transition:	all 0.4s ease;
+			transition:		all 0.4s ease;
 		}
-
-
+		.image.hovtext:hover .mask {
+			z-index: 1;	/*Move to front*/
+			opacity:	0.8;
+			transform:	scale(1.2);
+		}
 
 
 		.image.left, .image.right {
