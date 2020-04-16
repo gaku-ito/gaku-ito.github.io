@@ -3111,8 +3111,7 @@
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
 				font-style: normal;
-				font-weight: 100;
-				/*font-weight: normal;*/
+				font-weight: normal;
 				text-transform: none !important;
 			}
 
