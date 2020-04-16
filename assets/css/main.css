@@ -3111,12 +3111,13 @@
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
 				font-style: normal;
-				font-weight: normal;
+				font-weight: lighter;
 				text-transform: none !important;
 			}
 
 			#navPanel .close:before {
-				content: '\f00d';
+				/*cross*/
+				/*content: '\f00d';*/
 				width: 3em;
 				height: 3em;
 				line-height: 3em;
