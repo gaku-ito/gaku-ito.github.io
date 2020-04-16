@@ -2343,14 +2343,14 @@
 			left: 0%;
 			opacity:	0;	/*No mask*/
 			background-color:	#ffffff;
-			-webkit-transition:	all 0.3s ease;
-			transition:		all 0.3s ease;
+			/*-webkit-transition:	all 0.3s ease;*/
+			transition:		all 0.4s ease;
 		}
 		.image.hovtext:hover img {
 			z-index: 1;	/*Move to front*/
 			transform:	scale(1.2);
-			-webkit-transition:	all 0.3s ease;
-			transition:		all 0.3s ease;
+			/*-webkit-transition:	all 0.3s ease;*/
+			transition:		all 0.4s ease;
 		}
 		.image.hovtext:hover .mask {
 			z-index: 1;	/*Move to front*/
