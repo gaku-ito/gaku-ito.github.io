@@ -3111,16 +3111,22 @@
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
 				font-style: normal;
-				font-weight: lighter;
+				font-weight: 100;
+				/*font-weight: normal;*/
 				text-transform: none !important;
 			}
 
 			#navPanel .close:before {
 				/*cross*/
-				/*content: '\f00d';*/
+/*				content: '\f00d';
 				width: 3em;
 				height: 3em;
-				line-height: 3em;
+				line-height: 3em;*/
+				content:"\f104";
+				font-size: 2.25em;
+				width: 0.75em;
+				height: 0em;
+				line-height: 1em;
 				display: block;
 				position: absolute;
 				right: 0;
