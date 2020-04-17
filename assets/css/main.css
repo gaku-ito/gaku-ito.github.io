@@ -2332,7 +2332,7 @@
 	}
 		/*Text settings*/
 		.image.hovtext .caption {
-			font-size:	92.5%;
+			font-size:	95%;
 			text-align:	center;
 			padding-top:	135px;
 		}
@@ -2347,11 +2347,11 @@
 			opacity:	0;	/*No mask*/
 			background-color:	#ffffff;
 			/*-webkit-transition:	all 0.3s ease;*/
-			transition:		all 0.3s ease;
+			transition:		all 0.2s ease;
 		}
 		.image.hovtext:hover img {
 			z-index: 1;	/*Move to front*/
-			transform:	scale(1.08);
+			transform:	scale(1.07);
 			/*-webkit-transition:	all 0.3s ease;*/
 			transition:		all 1s ease;
 		}
