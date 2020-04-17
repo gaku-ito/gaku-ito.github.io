@@ -2358,7 +2358,7 @@
 		.image.hovtext:hover .mask {
 			z-index: 1;	/*Move to front*/
 			opacity:	0.8;
-			transform:	scale(1.05);
+			transform:	scale(1.052);
 		}
 
 
