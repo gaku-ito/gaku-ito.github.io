@@ -3118,10 +3118,12 @@
 		position: fixed;
 		left: 0;
 		top: 0;
-		background: #222;
+		/*background: #222;*/
+		background: #484848;
 		color: #fff;
 		height: 100%;
-		max-width: 80%;
+		/*max-width: 80%;*/
+		max-width: 65%;
 		width: 20em;
 		padding: 0.5em 1.25em;
 		text-transform: uppercase;
