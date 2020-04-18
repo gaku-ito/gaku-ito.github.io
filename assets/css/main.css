@@ -2320,7 +2320,7 @@
 		}
 
 
-	.image.hovtext img{
+/*	.image.hovtext img{
 		border-radius: 4px;
 		border: 0;
 		display: block;
@@ -2331,8 +2331,7 @@
 		object-fit: cover;
 		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
-	}
-		/*Text settings*/
+	}x
 		.image.hovtext .caption {
 			font-size:	100%;
 			text-align:	center;
@@ -2346,21 +2345,75 @@
 			position:	absolute;
 			top: 0%;
 			left: 0%;
-			opacity:	0;	/*No mask*/
+			opacity:	0;
 			background-color:	#ffffff;
 			transition:		all 0.4s ease;
 		}
 		.image.hovtext:hover img {
-			z-index: 1;	/*Move to front*/
-			transform:	scale(1.05);
+			z-index: 1;
+			transform:	scale(1.02);
 			-webkit-transition:	all 0.8s ease;
 			transition:		all 0.8s ease;
+		}
+		.image.hovtext:hover .mask {
+			z-index: 1;
+			opacity:	0.8;
+			transform:	scale(1.0);
+		}
+*/
+
+
+	/*Hover*/
+	.image.hovtext {
+		border-radius: 0px;
+		border: 0;
+		display: inline-block;
+		width: 100%;
+		height: 325px;
+		object-fit: cover;
+		overflow:hidden;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+		.image.hovtext img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.image.hovtext .caption {
+			font-size:	100%;
+			text-align:	center;
+			padding-top:	140px;
+		}
+		.image.hovtext .mask {
+			width: 100%; height: 100%;
+			position:	absolute;
+			top: 0%;
+			left: 0%;
+			opacity:	0;	/*No mask*/
+			background-color:	#ffffff;
+			transition:		all 0.75s ease;
+		}
+		.image.hovtext:hover img {
+			z-index: 1;	/*Move to front*/
+			transform:	scale(1.1);
+			-webkit-transition:	all 0.75s ease;
+			transition:		all 0.75s ease;
 		}
 		.image.hovtext:hover .mask {
 			z-index: 1;	/*Move to front*/
 			opacity:	0.8;
 			transform:	scale(1.0);
 		}
+
+
+
+
+
+
+
+
+
 
 
 		.image.left, .image.right {
