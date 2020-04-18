@@ -2379,11 +2379,8 @@
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
-		}
-		.image.hovtext .caption {
-			font-size:	100%;
-			text-align:	center;
-			padding-top:	140px;
+			-webkit-transition:	all 0.7s ease;
+			transition:		all 0.7s ease;
 		}
 		.image.hovtext .mask {
 			width: 100%; height: 100%;
@@ -2392,20 +2389,40 @@
 			left: 0%;
 			opacity:	0;	/*No mask*/
 			background-color:	#ffffff;
-			transition:		all 0.75s ease;
+			-webkit-transition:	all 0.7s ease;
+			transition:		all 0.7s ease;
 		}
 		.image.hovtext:hover img {
 			z-index: 1;	/*Move to front*/
-			transform:	scale(1.1);
-			-webkit-transition:	all 0.75s ease;
-			transition:		all 0.75s ease;
+			transform:	scale(1.3);
+			-webkit-transition:	all 0.8s ease;
+			transition:		all 0.8s ease;
 		}
 		.image.hovtext:hover .mask {
 			z-index: 1;	/*Move to front*/
-			opacity:	0.8;
+			opacity:	0.85;
+			-webkit-transition:	all 0.8s ease;
 			transform:	scale(1.0);
 		}
-
+		.image.hovtext .caption {
+/*			font-size:	100%;
+			text-align:	center;
+			padding-top:	140px;*/
+			font-size:	90%;
+			text-align:	center;
+			position: absolute;
+			top: 8px;
+			right: 8px;
+			bottom: 8px;
+			left: 8px;
+			padding-top:	125px;
+/*			top: 240px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			padding-top:	10px;*/
+			/*border: 1.25px solid #aaa;*/
+		}
 
 
 
