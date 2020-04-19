@@ -3089,8 +3089,12 @@
 		}
 
 		.navPanelToggle *:before {
-			background: rgba(144, 144, 144, 0.65);
-			border-radius: 4px;
+			/*background: rgba(144, 144, 144, 0.65);*/
+			/*border-radius: 4px;*/
+			/*color: #fff;*/
+			/*font-size: 16px;*/
+			background: #aaa;
+			border-radius: 1px;
 			color: #fff;
 			display: block;
 			font-size: 16px;
@@ -3101,6 +3105,9 @@
 			text-align: center;
 			top: 0.5em;
 			width: 3.5em;
+			-webkit-font-smoothing:antialiased;
+			/*-webkit-text-stroke-color:#fff;*/
+			-webkit-text-stroke-width: 0.01px
 		}
 
 	#navPanel {
